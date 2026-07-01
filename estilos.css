@@ -55,12 +55,10 @@ body {
 .btn-agregar {
     background: #7c6af7;
     color: #fff;
-    box-shadow: 0 3px 12px rgba(124,106,247,0.4);
 }
 
 .btn-agregar:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(124,106,247,0.5);
 }
 
 .btn-buscar {
@@ -138,7 +136,6 @@ body {
 .input::placeholder { color: #555; }
 .input:focus {
     border-color: #7c6af7;
-    box-shadow: 0 0 0 3px rgba(124,106,247,0.15);
 }
 
 .input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.6); cursor: pointer; }
